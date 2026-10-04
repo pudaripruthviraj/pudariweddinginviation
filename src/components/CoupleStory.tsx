@@ -44,7 +44,7 @@ export const CoupleStory: React.FC<CoupleStoryProps> = ({ currentLang }) => {
           <div className="md:col-span-4 relative flex justify-center">
             <div className="w-64 h-80 sm:w-72 sm:h-92 rounded-2xl overflow-hidden shadow-lg border-4 border-amber-200 bg-amber-50 relative">
               <img
-                src="/src/assets/images/couple_traditional_portrait_1791062768888.jpg"
+                src="/images/couple_traditional_portrait_1791062768888.jpg"
                 alt="Pruthviraj and Sravanthi"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

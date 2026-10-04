@@ -44,7 +44,7 @@ export const OpeningEnvelope: React.FC<OpeningEnvelopeProps> = ({ onOpen, curren
         {/* FOREGROUND CARD ARTWORK: Crisp Luxury Indian Wedding Blush Rose & Peacock Palace Invitation Card */}
         <div className="relative w-full aspect-[9/14] bg-[#FFF9F7] overflow-hidden">
           <img
-            src="/src/assets/images/blush_peacock_arch_1791066357714.jpg"
+            src="/images/blush_peacock_arch_1791066357714.jpg"
             alt="Wedding Invitation Envelope"
             className="w-full h-full object-cover object-center block"
           />
@@ -66,7 +66,7 @@ export const OpeningEnvelope: React.FC<OpeningEnvelopeProps> = ({ onOpen, curren
             <div className="space-y-0.5 pt-0.5">
               <div className="w-8 h-8 rounded-full p-0.5 bg-gradient-to-b from-[#F5D77F] via-[#C89B3C] to-[#8C5D0D] mx-auto shadow-sm ring-1 ring-[#C89B3C]/40 overflow-hidden">
                 <img
-                  src="/src/assets/images/lord_ganesh_gold_1791130909426.jpg"
+                  src="/images/lord_ganesh_gold_1791130909426.jpg"
                   alt="Lord Ganesha"
                   className="w-full h-full object-cover rounded-full"
                 />

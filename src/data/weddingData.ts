@@ -107,28 +107,28 @@ export const INITIAL_EVENTS: EventItem[] = [
 export const INITIAL_GALLERY: GalleryPhoto[] = [
   {
     id: 'photo-1',
-    url: '/src/assets/images/hero_telangana_wedding_1791062758055.jpg',
+    url: '/images/hero_telangana_wedding_1791062758055.jpg',
     captionEn: 'The sacred Kalyana Mandapam decked with fresh marigolds, mango toranam, and glowing lamps',
     captionTe: 'బంతిపూలు, మామిడాకుల తోరణాలు మరియు దీపకాంతులతో శోభిల్లుతున్న కళ్యాణ వేదిక',
     category: 'rituals',
   },
   {
     id: 'photo-2',
-    url: '/src/assets/images/couple_traditional_portrait_1791062768888.jpg',
+    url: '/images/couple_traditional_portrait_1791062768888.jpg',
     captionEn: 'Deepika & Pruthviraj in traditional festive attire',
     captionTe: 'సాంప్రదాయ పట్టు వస్త్రాలలో చిరునవ్వులు చిందిస్తున్న దీపిక & పృథ్వీరాజ్',
     category: 'couple',
   },
   {
     id: 'photo-3',
-    url: '/src/assets/images/telangana_wedding_rituals_1791062777431.jpg',
+    url: '/images/telangana_wedding_rituals_1791062777431.jpg',
     captionEn: 'Sacred Talambralu moments with pearls, turmeric rice, and fragrant petals',
     captionTe: 'ముత్యాల తాళంబ్రాల వేడుక - పసుపు అక్షింతలు, గులాబీ పూల వర్షం',
     category: 'rituals',
   },
   {
     id: 'photo-4',
-    url: '/src/assets/images/telangana_haldi_celebration_1791062787214.jpg',
+    url: '/images/telangana_haldi_celebration_1791062787214.jpg',
     captionEn: 'Haldi celebrations with brass urli and fresh blossoms',
     captionTe: 'హల్దీ సన్నాహాలు - ఇత్తడి గంగాళం, పసుపు పూలు మరియు అరటి తోరణాలు',
     category: 'haldi',

@@ -32,7 +32,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'పరిచయం - అనుబంధం',
     descriptionEn: 'Back in 2020, our paths crossed. What began with simple conversations, genuine smiles, and heartfelt conversations gradually laid the foundation for an unbreakable companionship.',
     descriptionTe: '2020 లో మొదలైన పరిచయం. ఒకరి ఆలోచనలు మరొకరు పంచుకుంటూ, కష్టసుఖాలలో తోడుగా నిలుస్తూ ఒక గాఢమైన స్నేహ బంధం ఏర్పడింది.',
-    imageUrl: '/src/assets/images/couple_traditional_portrait_1791062768888.jpg',
+    imageUrl: '/images/couple_traditional_portrait_1791062768888.jpg',
     icon: '🌸',
   },
   {
@@ -47,7 +47,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'అనురాగ ప్రయాణం',
     descriptionEn: 'Over years of shared laughter, mutual trust, and unwavering understanding, our friendship organically blossomed into deep, enduring love. We knew we had found our forever partner in each other.',
     descriptionTe: 'ఏళ్ల తరబడి సాగిన స్నేహం కాలక్రమేణా పవిత్రమైన ప్రేమగా రూపాంతరం చెందింది. ఒకరికొకరం జీవితాంతం తోడునీడగా ఉండాలని నిర్ణయించుకున్న సుందర తరుణం.',
-    imageUrl: '/src/assets/images/telangana_wedding_rituals_1791062777431.jpg',
+    imageUrl: '/images/telangana_wedding_rituals_1791062777431.jpg',
     icon: '💖',
   },
   {
@@ -62,7 +62,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'పెద్దల ఆశీస్సులతో నిశ్చితార్థం',
     descriptionEn: 'This year in March, blessed with the heartfelt love and approval of both our beloved parents and elders, we exchanged rings and made our union official in traditional festive splendour.',
     descriptionTe: 'ఈ ఏడాది మార్చి నెలలో రెండు కుటుంబాల పెద్దలు, బంధుమిత్రుల సమక్షంలో సాంప్రదాయబద్ధంగా ఉంగరాలు మార్చుకుని నిశ్చితార్థం చేసుకున్న ఆనంద క్షణాలు.',
-    imageUrl: '/src/assets/images/peacock_lotus_crest_1791066368632.jpg',
+    imageUrl: '/images/peacock_lotus_crest_1791066368632.jpg',
     icon: '💍',
   },
   {
@@ -77,7 +77,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'విజయదుర్గ కళ్యాణ మండపం, చిత్తూరు',
     descriptionEn: 'The sacred dawn when we tie the Mangalasutra, shower fragrant Talambralu, and take seven holy vows around the sacred fire at Chittoor.',
     descriptionTe: 'జీలకర్ర-బెల్లం, మాంగళ్యధారణ, ముత్యాల తాళంబ్రాలు మరియు సప్తపది ఏడడుగులతో ఒక్కటయ్యే పవిత్ర శుభ ముహూర్తం.',
-    imageUrl: '/src/assets/images/hero_telangana_wedding_1791062758055.jpg',
+    imageUrl: '/images/hero_telangana_wedding_1791062758055.jpg',
     icon: '👑',
   },
   {
@@ -92,7 +92,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'మున్నూరు కాపు కళ్యాణ మండపం, నిజామాబాద్',
     descriptionEn: 'Celebrating our new chapter with music, warm felicitations, and an authentic festive banquet welcoming all our loved ones in Nizamabad.',
     descriptionTe: 'నిజామాబాద్‌లో బంధుమిత్రుల సమక్షంలో ప్రత్యక్ష సంగీత విభావరి, విందు భోజనంతో జరుపుకునే ఘన వివాహ రిసెప్షన్.',
-    imageUrl: '/src/assets/images/telangana_haldi_celebration_1791062787214.jpg',
+    imageUrl: '/images/telangana_haldi_celebration_1791062787214.jpg',
     icon: '✨',
   },
 ];

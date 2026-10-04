@@ -507,7 +507,7 @@ export default function App() {
             <div className="relative mx-auto max-w-[270px] mt-2">
               <div className="w-52 h-68 mx-auto rounded-t-full rounded-b-3xl overflow-hidden border-4 border-[#C89B3C] ring-2 ring-rose-300/40 shadow-xl bg-amber-50 relative group">
                 <img
-                  src="/src/assets/images/couple_traditional_portrait_1791062768888.jpg"
+                  src="/images/couple_traditional_portrait_1791062768888.jpg"
                   alt="Deepika & Pruthviraj"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
@@ -517,7 +517,7 @@ export default function App() {
               {/* Majestic Royal Peacock & Blooming Lotus Floating Badge */}
               <div className="absolute -bottom-3 -left-2 w-16 h-16 rounded-full border-2 border-[#C89B3C] overflow-hidden shadow-lg bg-white ring-2 ring-rose-200 pointer-events-none">
                 <img
-                  src="/src/assets/images/peacock_lotus_crest_1791066368632.jpg"
+                  src="/images/peacock_lotus_crest_1791066368632.jpg"
                   alt="Royal Peacock & Lotus"
                   className="w-full h-full object-cover"
                 />

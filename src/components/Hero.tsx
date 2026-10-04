@@ -86,7 +86,7 @@ export const Hero: React.FC<HeroProps> = ({ currentLang, onOpenRsvp }) => {
         <div className="lg:col-span-5 relative">
           <div className="relative mx-auto max-w-md lg:max-w-none rounded-2xl overflow-hidden shadow-xl border-4 border-amber-200/90 bg-amber-50 aspect-4/3 sm:aspect-16/10 lg:aspect-4/3">
             <img
-              src="/src/assets/images/hero_telangana_wedding_1791062758055.jpg"
+              src="/images/hero_telangana_wedding_1791062758055.jpg"
               alt="Sacred Telangana Wedding Mandapam with Marigolds and Brass Lamps"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center"
