@@ -9,8 +9,7 @@ import {
 import { Language, GuestRsvp, GuestbookEntry, GalleryPhoto, RegistryItem, BudgetItem, SeatingTable } from './types/wedding';
 import { translations } from './data/translations';
 import { 
-  INITIAL_EVENTS, INITIAL_GALLERY, INITIAL_GUESTBOOK, 
-  INITIAL_RSVPS, INITIAL_REGISTRY, INITIAL_BUDGET, INITIAL_TABLES, WEDDING_DATE_ISO 
+  INITIAL_EVENTS, INITIAL_GALLERY, INITIAL_GUESTBOOK, WEDDING_DATE_ISO 
 } from './data/weddingData';
 import { weddingMusic } from './utils/audioPlayer';
 import { triggerAkshinthaluShower } from './utils/confetti';
@@ -30,7 +29,7 @@ export default function App() {
   // Stored state
   const [rsvps, setRsvps] = useState<GuestRsvp[]>(() => {
     const s = localStorage.getItem('wedding_rsvps');
-    return s ? JSON.parse(s) : INITIAL_RSVPS;
+    return s ? JSON.parse(s) : [];
   });
   const [guestbook, setGuestbook] = useState<GuestbookEntry[]>(() => {
     const s = localStorage.getItem('wedding_guestbook');
@@ -51,15 +50,15 @@ export default function App() {
   });
   const [registry, setRegistry] = useState<RegistryItem[]>(() => {
     const s = localStorage.getItem('wedding_registry');
-    return s ? JSON.parse(s) : INITIAL_REGISTRY;
+    return s ? JSON.parse(s) : [];
   });
   const [budget, setBudget] = useState<BudgetItem[]>(() => {
     const s = localStorage.getItem('wedding_budget');
-    return s ? JSON.parse(s) : INITIAL_BUDGET;
+    return s ? JSON.parse(s) : [];
   });
   const [tables, setTables] = useState<SeatingTable[]>(() => {
     const s = localStorage.getItem('wedding_tables');
-    return s ? JSON.parse(s) : INITIAL_TABLES;
+    return s ? JSON.parse(s) : [];
   });
 
   // Modals
