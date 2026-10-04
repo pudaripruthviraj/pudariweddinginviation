@@ -1,5 +1,5 @@
 import React from 'react';
-import ganeshImage from '../assets/images/lord_ganesh_gold_1791130909426.jpg';
+import ganeshImage from '../../public/images/lord_ganesh_gold_1791130909426.jpg';
 
 interface LordGaneshHeaderProps {
   currentLang?: 'en' | 'te';
