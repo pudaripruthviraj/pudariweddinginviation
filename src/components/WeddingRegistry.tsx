@@ -21,7 +21,7 @@ export const WeddingRegistry: React.FC<WeddingRegistryProps> = ({
   const [claimerName, setClaimerName] = useState('');
   const [showShagunModal, setShowShagunModal] = useState(false);
 
-  const upiId = 'kalyanam.pandari@okaxis';
+  const upiId = '';
 
   const handleCopyUpi = () => {
     navigator.clipboard.writeText(upiId);
@@ -192,52 +192,7 @@ export const WeddingRegistry: React.FC<WeddingRegistryProps> = ({
       </div>
 
       {/* Shagun Bank Details Modal */}
-      {showShagunModal && (
-        <div
-          className="fixed inset-0 z-50 bg-black/75 backdrop-blur-xs flex items-center justify-center p-4"
-          onClick={() => setShowShagunModal(false)}
-        >
-          <div
-            className="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl border border-amber-200 space-y-4"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="flex items-center justify-between border-b border-amber-100 pb-3">
-              <h3 className="text-base font-display font-bold text-[#781B10]">
-                Traditional Shagun & Bank Account
-              </h3>
-              <button
-                onClick={() => setShowShagunModal(false)}
-                className="text-xs text-amber-800 hover:underline cursor-pointer"
-              >
-                Close
-              </button>
-            </div>
-
-            <div className="space-y-3 text-xs text-amber-950">
-              <div className="p-3 rounded-lg bg-amber-50 border border-amber-200 space-y-1">
-                <span className="font-semibold block text-[#781B10]">Account Holder:</span>
-                <span className="font-bold">Pruthviraj Pandari</span>
-              </div>
-              <div className="p-3 rounded-lg bg-amber-50 border border-amber-200 space-y-1">
-                <span className="font-semibold block text-[#781B10]">Bank:</span>
-                <span>HDFC Bank, Banjara Hills Branch, Hyderabad</span>
-              </div>
-              <div className="p-3 rounded-lg bg-amber-50 border border-amber-200 space-y-1">
-                <span className="font-semibold block text-[#781B10]">Account Number:</span>
-                <span className="font-mono font-bold">50100489218492</span>
-              </div>
-              <div className="p-3 rounded-lg bg-amber-50 border border-amber-200 space-y-1">
-                <span className="font-semibold block text-[#781B10]">IFSC Code:</span>
-                <span className="font-mono font-bold">HDFC0000521</span>
-              </div>
-            </div>
-
-            <p className="text-[11px] text-amber-800 italic text-center">
-              Please mention your name in the payment description so the couple can thank you personally!
-            </p>
-          </div>
-        </div>
-      )}
+      <></>
     </section>
   );
 };

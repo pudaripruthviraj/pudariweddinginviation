@@ -42,9 +42,9 @@ export const translations = {
     storyTitle: 'The Blessed Journey',
     storySub: 'Two souls united by destiny, with the warmth of family and Telangana traditions',
     groomTitle: 'The Groom',
-    groomBio: 'Software Architect & Tech Lead, S/o Sri Pandari Srinivas & Smt. Radha. Rooted in Telangana heritage with a passion for soulful music and tech innovation.',
+    groomBio: 'Software Tech Lead, S/o Sri Pudari Sayanna & Smt. Gangamani. Rooted in Telangana heritage with a passion for soulful music and tech innovation.',
     brideTitle: 'The Bride',
-    brideBio: 'Biomedical Scientist, D/o Sri Vangala Rammohan & Smt. Padmavathi. A classical Kuchipudi enthusiast and researcher devoted to life sciences and cultural arts.',
+    brideBio: 'Software Engineer, D/o Sri N Nagarajulu & Smt. Usha. A korean film enthusiast.',
     familyBlessing: 'With the divine blessings of our beloved grandparents, parents, and family elders, we cordially invite you and your family to grace our wedding celebration.',
 
     // Event Schedule

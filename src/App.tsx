@@ -1125,11 +1125,6 @@ export default function App() {
           <div className="w-8 h-8 mx-auto rounded-full bg-amber-100 flex items-center justify-center text-[#C89B3C]">
             <Crown className="w-4 h-4" />
           </div>
-          <p className="font-serif italic text-[#4A0E17] font-bold text-sm">
-            {currentLang === 'te' 
-              ? 'ఆహ్వానించువారు: పండరి & ఎన్. కుటుంబ సభ్యులు మరియు బంధుమిత్రులు' 
-              : 'Cordially Invited by: Pandari & N. Families and Relatives'}
-          </p>
           <p className="text-[10px] text-amber-800">
             October & November 2026
           </p>
