@@ -32,7 +32,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'పరిచయం - అనుబంధం',
     descriptionEn: 'Back in 2020, our paths crossed. What began with simple conversations, genuine smiles, and heartfelt conversations gradually laid the foundation for an unbreakable companionship.',
     descriptionTe: '2020 లో మొదలైన పరిచయం. ఒకరి ఆలోచనలు మరొకరు పంచుకుంటూ, కష్టసుఖాలలో తోడుగా నిలుస్తూ ఒక గాఢమైన స్నేహ బంధం ఏర్పడింది.',
-    imageUrl: '/images/deepika_Pruthvi.jpg',
+    imageUrl: '/images/deepika_Pruthvi.jpeg',
     icon: '🌸',
   },
   {
@@ -77,7 +77,7 @@ const MILESTONES: Milestone[] = [
     locationTe: 'విజయదుర్గ కళ్యాణ మండపం, చిత్తూరు',
     descriptionEn: 'The sacred dawn when we tie the Mangalasutra, shower fragrant Talambralu, and take seven holy vows around the sacred fire at Chittoor.',
     descriptionTe: 'జీలకర్ర-బెల్లం, మాంగళ్యధారణ, ముత్యాల తాళంబ్రాలు మరియు సప్తపది ఏడడుగులతో ఒక్కటయ్యే పవిత్ర శుభ ముహూర్తం.',
-    imageUrl: '/images/deepika_Pruthvi',
+    imageUrl: '/images/deepika_Pruthvi.jpeg',
     icon: '👑',
   },
   {

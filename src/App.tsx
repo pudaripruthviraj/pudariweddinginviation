@@ -507,7 +507,7 @@ export default function App() {
             <div className="relative mx-auto max-w-[270px] mt-2">
               <div className="w-52 h-68 mx-auto rounded-t-full rounded-b-3xl overflow-hidden border-4 border-[#C89B3C] ring-2 ring-rose-300/40 shadow-xl bg-amber-50 relative group">
                 <img
-                  src="/images/deepika_Pruthvi.jpg"
+                  src="/images/deepika_Pruthvi.jpeg"
                   alt="Deepika & Pruthviraj"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
