@@ -517,37 +517,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Subha Muhurtham & Reception Details */}
-            <div className="pt-2 text-center space-y-2">
-              <div className="p-2.5 rounded-2xl bg-rose-50/80 border border-rose-200 shadow-xs">
-                <span className="text-base font-editorial italic text-[#54121E] font-bold block">
-                  💍 {currentLang === 'te' ? 'శుభ లగ్నం (వివాహం)' : 'Subha Muhurtham (Wedding)'}
-                </span>
-                <p className="text-xs font-serif text-amber-950 font-bold tracking-wide">
-                  {currentLang === 'te' ? 'శుక్రవారం, అక్టోబర్ 30, 2026 - ఉదయం 5:30 గంటలకు' : 'Friday, 30 October 2026 at 5:30 AM'}
-                </p>
-                <p className="text-[11px] font-serif text-amber-900 leading-tight">
-                  {currentLang === 'te' 
-                    ? 'విజయదుర్గ కళ్యాణ మండపం, దుర్గమ్మ గుడి దగ్గర, వెల్లూరు రోడ్డు, గ్రీమ్స్‌పేట్, చిత్తూరు' 
-                    : 'Vijayadurga Kalyana Mandapam, Near Durgamma Temple, Vellore Road, Greamspet, Chittoor'}
-                </p>
-              </div>
-
-              <div className="p-2.5 rounded-2xl bg-amber-50/80 border border-amber-300 shadow-xs">
-                <span className="text-base font-editorial italic text-[#781B10] font-bold block">
-                  ✨ {currentLang === 'te' ? 'ఘన వివాహ రిసెప్షన్' : 'Grand Wedding Reception'}
-                </span>
-                <p className="text-xs font-serif text-amber-950 font-bold tracking-wide">
-                  {currentLang === 'te' ? 'బుధవారం, నవంబర్ 4, 2026 - సాయంత్రం 6:30 నుండి' : 'Wednesday, 4 November 2026 from 6:30 PM'}
-                </p>
-                <p className="text-[11px] font-serif text-amber-900 leading-tight">
-                  {currentLang === 'te' 
-                    ? 'మున్నూరు కాపు కళ్యాణ మండపం, శివాజీ నగర్, నిజామాబాద్' 
-                    : 'Munnuru Kapu Kalyana Mandapam, Shivaji Nagar, Nizamabad'}
-                </p>
-              </div>
-            </div>
-
             {/* Interactive Royal Gold Scratch Card to Reveal Muhurtham */}
             <div className="pt-1">
               <ScratchCardDate currentLang={currentLang} />
