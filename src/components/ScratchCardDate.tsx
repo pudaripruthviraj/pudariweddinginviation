@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import { Sparkles, RefreshCw, CheckCircle2 } from 'lucide-react';
 import { Language } from '../types/wedding';
 import { triggerAkshinthaluShower } from '../utils/confetti';
-import ganeshImage from '../../public/images/lord_ganesh_gold_1791130909426.jpg'';
+import ganeshImage from '../../public/images/lord_ganesh_gold_1791130909426.jpg';
 
 interface ScratchCardDateProps {
   currentLang: Language;
