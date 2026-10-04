@@ -362,13 +362,7 @@ export default function App() {
             </button>
 
             {/* Host Tools */}
-            <button
-              onClick={() => setShowHostToolsModal(true)}
-              className="p-1.5 rounded-full bg-white border border-rose-200 text-rose-900 cursor-pointer hover:bg-rose-50"
-              title="Host Management Suite"
-            >
-              <ShieldCheck className="w-3.5 h-3.5 text-[#54121E]" />
-            </button>
+           
           </div>
         </div>
 
