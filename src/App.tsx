@@ -1203,23 +1203,6 @@ export default function App() {
       <button
         onClick={() => {
           if (viewMode === 'storybook') {
-            setActiveChapter(4);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          } else {
-            scrollToId('slide-feast');
-          }
-        }}
-        className={`flex flex-col items-center gap-0.5 cursor-pointer py-1 px-1.5 transition-colors ${
-          activeChapter === 4 && viewMode === 'storybook' ? 'text-[#54121E] font-bold' : 'hover:text-[#54121E]'
-        }`}
-      >
-        <Utensils className="w-4 h-4 text-[#C89B3C]" />
-        <span>{currentLang === 'te' ? 'విందు' : 'Feast'}</span>
-      </button>
-
-      <button
-        onClick={() => {
-          if (viewMode === 'storybook') {
             setActiveChapter(5);
             window.scrollTo({ top: 0, behavior: 'smooth' });
           } else {
