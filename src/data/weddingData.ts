@@ -1,4 +1,4 @@
-import { EventItem, GuestRsvp, GuestbookEntry, GalleryPhoto, RegistryItem, BudgetItem, SeatingTable } from '../types/wedding';
+import { EventItem, GuestbookEntry, GalleryPhoto} from '../types/wedding';
 
 // Wedding date: October 30, 2026 at 5:30 AM IST
 export const WEDDING_DATE_ISO = '2026-10-30T05:30:00+05:30';
