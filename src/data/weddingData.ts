@@ -107,14 +107,14 @@ export const INITIAL_EVENTS: EventItem[] = [
 export const INITIAL_GALLERY: GalleryPhoto[] = [
   {
     id: 'photo-1',
-    url: '/images/hero_telangana_wedding_1791062758055.jpg',
+    url: '/images/deepika_Pruthvi',
     captionEn: 'The sacred Kalyana Mandapam decked with fresh marigolds, mango toranam, and glowing lamps',
     captionTe: 'బంతిపూలు, మామిడాకుల తోరణాలు మరియు దీపకాంతులతో శోభిల్లుతున్న కళ్యాణ వేదిక',
     category: 'rituals',
   },
   {
     id: 'photo-2',
-    url: '/images/couple_traditional_portrait_1791062768888.jpg',
+    url: '/images/deepika_Pruthvi.jpg',
     captionEn: 'Deepika & Pruthviraj in traditional festive attire',
     captionTe: 'సాంప్రదాయ పట్టు వస్త్రాలలో చిరునవ్వులు చిందిస్తున్న దీపిక & పృథ్వీరాజ్',
     category: 'couple',
